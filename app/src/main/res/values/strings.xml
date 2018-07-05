@@ -1,0 +1,207 @@
+<resources>
+    <string name="app_name">Cerveja Caseira</string>
+    <string name="ok">OK</string>
+    <string name="configuracao">CONFIG.</string>
+    <string name="nome">Nome</string>
+    <string name="estilo">Estilo</string>
+    <string name="og">OG</string>
+    <string name="fg">FG</string>
+    <string name="quantidade">Quantidade</string>
+    <string name="eficiencia">Eficiência</string>
+    <string name="ibu">IBU</string>
+    <string name="bugu">BU:GU</string>
+    <string name="balance">Balanço</string>
+    <string name="abv">ABV</string>
+    <string name="potencialExtracao">P. Ext.</string>
+    <string name="cor">Cor</string>
+    <string name="percentagem">Percent. %</string>
+    <string name="kilos">Kilos</string>
+    <string name="gramas">Gramas</string>
+    <string name="tempo">Tempo</string>
+    <string name="alpha">Alpha Ácidos</string>
+    <string name="mashable">Mashable</string>
+    <string name="adicaoTardia">Adição Tardia</string>
+    <string name="lupulo">LÚPULO</string>
+    <string name="fermento">FERMENTO</string>
+    <string name="temperaturas">TEMPERATURAS</string>
+    <string name="temperatura">Temperatura</string>
+    <string name="graos">GRÃOS</string>
+    <string name="ph">pH</string>
+    <string name="phMin">pH Min.</string>
+    <string name="phMax">pH Max.</string>
+    <string name="tempMin">Temp. Min.</string>
+    <string name="tempMax">Temp. Max.</string>
+    <string name="enzimas">Enzimas</string>
+    <string name="uso">Uso</string>
+    <string name="outros">MISCELÂNEA</string>
+    <string name="aguaGrao">ÁGUA / GRÃOS</string>
+    <string name="aguaVolumeMostura">Volume Mostura (L)</string>
+    <string name="aguaVolumeTotal">Volume Total (L)</string>
+    <string name="aguaRelacao">Relação (L/Kg)</string>
+    <string name="graosTotal">  Total Grãos (Kg)</string>
+    <string name="graosTemperatura">Temp. Grãos (ºC)</string>
+    <string name="graosAbsorcao">Absorção (L/Kg)</string>
+    <string name="MOSTURA">MOSTURA</string>
+    <string name="mosturaQuantidade">  Quantidade (L)</string>
+    <string name="mosturaTemperaturaDesejada">Temperatura (ºC)</string>
+    <string name="mosturaTemperaturaIndica">Temp. Indicada (ºC)</string>
+    <string name="lavagem">LAVAGEM</string>
+    <string name="lavagemQuantidade">  Quantidade (L)</string>
+    <string name="lavagemTemperaturaDesejada">Temperatura (ºC)</string>
+    <string name="lavagemTemperaturaIndica">Temp. Ideal (ºC)</string>
+    <string name="perdas">PERDAS</string>
+    <string name="perdasLavagem"> Lavagem (L)</string>
+    <string name="perdasFervura">Fervura (L)</string>
+    <string name="perdasFermentador">Fermentador (L)</string>
+    <string name="parametros">PARAMETROS</string>
+    <string name="parametrosTempoFervura">Tempo Fervura (Min)</string>
+    <string name="parametrosTaxaEvaporação">Taxa Evaporação (%)</string>
+    <string name="antes">ANTES DE FERVER</string>
+    <string name="antesQuantidade">Quantidade (L)</string>
+    <string name="antesGravidadeEspecifica">Gravidade Especifica</string>
+    <string name="depois">DEPOIS DE FERVER</string>
+    <string name="depoisQuantidade">Quantidade (L)</string>
+    <string name="depoisGravidadeEspecifica">Gravidade Especifica</string>
+    <string name="total">TOTAL</string>
+    <string name="totalVolumeFinal">Volume Final (L)</string>
+    <string name="totalDepoisEsfriar">Depois de Esfriar (L)</string>
+    <string name="fervura">FERVURA</string>
+    <string name="brassagem">BRASSAGEM</string>
+    <string name="remover">REMOVER</string>
+    <string name="tipo">Tipo</string>
+    <string name="faixaTemp">Faixa de Temperatura</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <drawable name="colorApp">#000000</drawable>
+    <drawable name="black">#000000</drawable>
+    <drawable name="white">#FFFFFF</drawable>
+    <drawable name="COR_FFF4D4">#FFF4D4</drawable>
+    <drawable name="COR_FFE699">#FFE699</drawable>
+    <drawable name="COR_FFD878">#FFD878</drawable>
+    <drawable name="COR_FFCA5A">#FFCA5A</drawable>
+    <drawable name="COR_FFBF42">#FFBF42</drawable>
+    <drawable name="COR_FBB123">#FBB123</drawable>
+    <drawable name="COR_F8A600">#F8A600</drawable>
+    <drawable name="COR_F39C00">#F39C00</drawable>
+    <drawable name="COR_EA8F00">#EA8F00</drawable>
+    <drawable name="COR_E58500">#E58500</drawable>
+    <drawable name="COR_DE7C00">#DE7C00</drawable>
+    <drawable name="COR_D77200">#D77200</drawable>
+    <drawable name="COR_CF6900">#CF6900</drawable>
+    <drawable name="COR_CB6200">#CB6200</drawable>
+    <drawable name="COR_C35900">#C35900</drawable>
+    <drawable name="COR_BB5100">#BB5100</drawable>
+    <drawable name="COR_B54C00">#B54C00</drawable>
+    <drawable name="COR_B04500">#B04500</drawable>
+    <drawable name="COR_A63E00">#A63E00</drawable>
+    <drawable name="COR_A13700">#A13700</drawable>
+    <drawable name="COR_9B3200">#9B3200</drawable>
+    <drawable name="COR_952D00">#952D00</drawable>
+    <drawable name="COR_8E2900">#8E2900</drawable>
+    <drawable name="COR_882300">#882300</drawable>
+    <drawable name="COR_7B1A00">#7B1A00</drawable>
+    <drawable name="COR_771900">#771900</drawable>
+    <drawable name="COR_701400">#701400</drawable>
+    <drawable name="COR_6A0E00">#6A0E00</drawable>
+    <drawable name="COR_660D00">#660D00</drawable>
+    <drawable name="COR_5E0B00">#5E0B00</drawable>
+    <drawable name="COR_5A0A02">#5A0A02</drawable>
+    <drawable name="COR_600903">#600903</drawable>
+    <drawable name="COR_520907">#520907</drawable>
+    <drawable name="COR_4C0505">#4C0505</drawable>
+    <drawable name="COR_470606">#470606</drawable>
+    <drawable name="COR_420607">#420607</drawable>
+    <drawable name="COR_3D0708">#3D0708</drawable>
+    <drawable name="COR_370607">#370607</drawable>
+    <drawable name="COR_2D0607">#2D0607</drawable>
+    <drawable name="COR_1F0506">#1F0506</drawable>
+    <string name="title_activity_main">MainActivity</string>
+</resources>

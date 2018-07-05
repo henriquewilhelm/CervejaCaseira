@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/dialog_temperaturas_personalizada_temperatura_minmax_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:text="@string/faixaTemp"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/dialog_temperaturas_personalizada_temperatura_min"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/tempMin"
+                    android:textAlignment="textEnd"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/dialog_temperaturas_personalizada_temperatura_max"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/tempMax"
+                    android:textSize="12sp" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textTempTemperatura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="@string/temperatura" />
+
+        <EditText
+            android:id="@+id/editTempTemperaturaText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:inputType="numberDecimal"
+            />
+
+        <TextView
+            android:id="@+id/textTempoTemperatura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="@string/tempo" />
+
+        <EditText
+            android:id="@+id/editTempoTemperaturaText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:inputType="number"
+            />
+
+        <Button
+            android:id="@+id/dialogButtonTemperaturaOK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Ok"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            />
+
+        <Button
+            android:id="@+id/dialogButtonTemperaturaRemover"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/remover"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            />
+
+</LinearLayout>

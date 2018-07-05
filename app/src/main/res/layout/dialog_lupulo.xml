@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textAplhaLupulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="@string/alpha" />
+
+        <EditText
+            android:id="@+id/editAplhaLupuloText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:inputType="numberDecimal"
+            />
+
+        <TextView
+            android:id="@+id/textQntdLupulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="@string/quantidade" />
+
+        <EditText
+            android:id="@+id/editQntdLupuloText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:inputType="numberDecimal"
+            />
+        <TextView
+            android:id="@+id/textTempo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="@string/tempo" />
+
+        <EditText
+            android:id="@+id/editTempoLupuloText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:inputType="numberDecimal"
+            />
+
+        <TextView
+            android:id="@+id/textViewTipoLululo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="@string/tipo"/>
+
+        <Spinner
+            android:id="@+id/spinnerTipoLululo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/dialogButtonLupuloOK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Ok"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/dialogButtonLupuloRemover"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/remover"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"/>
+
+</LinearLayout>

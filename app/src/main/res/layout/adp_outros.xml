@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+
+        <TextView
+            android:id="@+id/lista_outros_personalizada_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nome"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/lista_outros_personalizada_uso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/uso"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/lista_outros_personalizada_gramas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/gramas"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/lista_outros_personalizada_tempo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/tempo"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/lista_lupulos_personalizada_nome"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/nome" />
+
+        <TextView
+            android:id="@+id/lista_lupulos_personalizada_alpha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/alpha"
+            android:textAlignment="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/lista_lupulos_personalizada_gramas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gramas"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/lista_lupulos_personalizada_tempo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tempo"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/lista_lupulos_personalizada_tipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tipo"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+</LinearLayout>

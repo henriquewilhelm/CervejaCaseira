@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textUsoOutro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="@string/uso" />
+
+        <EditText
+            android:id="@+id/editUsoOutroText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:id="@+id/textQntdOutro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="@string/gramas" />
+
+        <EditText
+            android:id="@+id/editQntdOutroText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:inputType="numberDecimal"
+            />
+        <TextView
+            android:id="@+id/textTempoOutro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="@string/tempo" />
+
+        <EditText
+            android:id="@+id/editTempoOutroText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:inputType="numberDecimal"
+            />
+
+        <Button
+            android:id="@+id/dialogButtonOutroOK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Ok"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            />
+        <Button
+            android:id="@+id/dialogButtonOutroRemover"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/remover"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            />
+
+</LinearLayout>

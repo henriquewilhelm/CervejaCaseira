@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/layoutAgua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/colorApp"
+            android:text="@string/aguaGrao"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="105dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/textViewAguaVolumeMostura"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/aguaVolumeMostura"
+                            android:textSize="10sp" />
+
+                        <EditText
+                            android:id="@+id/editTextAguaVolumeMostura"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="numberDecimal" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="105dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textViewAguaVolumeTotal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/aguaVolumeTotal"
+                            android:textSize="10sp" />
+
+                        <EditText
+                            android:id="@+id/editTextAguaVolumeTotal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="numberDecimal" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="105dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textViewAguaRelacao"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/aguaRelacao"
+                            android:textSize="10sp" />
+
+                        <EditText
+                            android:id="@+id/editTextAguaRelacao"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="numberDecimal" />
+
+                </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="105dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/textViewGraosTotal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/graosTotal"
+                            android:textSize="10sp" />
+
+                        <EditText
+                            android:id="@+id/editTextGraosTotal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="numberDecimal" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="105dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textViewGraosTemperatura"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/graosTemperatura"
+                            android:textSize="10sp" />
+
+                        <EditText
+                            android:id="@+id/editTextGraosTemperatura"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="numberDecimal" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="105dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textViewGraosAbsorcao"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/graosAbsorcao"
+                            android:textSize="10sp" />
+
+                        <EditText
+                            android:id="@+id/editTextGraosAbsorcao"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="numberDecimal" />
+
+                </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/layoutBrassagem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/colorApp"
+            android:text="@string/MOSTURA"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="105dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/textViewMosturaQuantidade"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/mosturaQuantidade"
+                            android:textSize="10sp" />
+
+                        <EditText
+                            android:id="@+id/editTextMosturaQuantidade"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="numberDecimal" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="105dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textViewMosturaTemperaturaDesejada"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/mosturaTemperaturaDesejada"
+                            android:textSize="10sp" />
+
+                        <EditText
+                            android:id="@+id/editTextMosturaTemperaturaDesejada"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="numberDecimal" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="105dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textViewMosturaTemperaturaIndica"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/mosturaTemperaturaIndica"
+                            android:textSize="10sp" />
+
+                        <EditText
+                            android:id="@+id/editTextMosturaTemperaturaIndica"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="numberDecimal" />
+
+                </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/layoutLavagem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/colorApp"
+            android:text="@string/lavagem"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="105dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/textViewLavagemQuantidade"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/lavagemQuantidade"
+                            android:textSize="10sp" />
+
+                        <EditText
+                            android:id="@+id/editTextLavagemQuantidade"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="numberDecimal" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="105dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textViewLavagemTemperaturaDesejada"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/lavagemTemperaturaDesejada"
+                            android:textSize="10sp" />
+
+                        <EditText
+                            android:id="@+id/editTextLavagemTemperaturaDesejada"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="numberDecimal" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="105dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textViewLavagemTemperaturaIndica"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/lavagemTemperaturaIndica"
+                            android:textSize="10sp" />
+
+                        <EditText
+                            android:id="@+id/editTextLavagemTemperaturaIndica"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="numberDecimal" />
+
+                </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/layoutPerdas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/colorApp"
+            android:text="@string/perdas"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="105dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/textViewPerdasLavagem"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/perdasLavagem"
+                            android:textSize="10sp" />
+
+                        <EditText
+                            android:id="@+id/editTextPerdasLavagem"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="numberDecimal" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="105dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textViewPerdasFervura"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/perdasFervura"
+                            android:textSize="10sp" />
+
+                        <EditText
+                            android:id="@+id/editTextPerdasFervura"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="numberDecimal" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="105dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textViewPerdasFermentador"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/perdasFermentador"
+                            android:textSize="10sp" />
+
+                        <EditText
+                            android:id="@+id/editTextPerdasFermentador"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="numberDecimal" />
+
+                </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/dialogButtonBrassagemOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ok" />
+</LinearLayout>
