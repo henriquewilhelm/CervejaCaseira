@@ -14,9 +14,10 @@
         <TextView
             android:id="@+id/lista_lupulos_personalizada_nome"
             android:layout_width="match_parent"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="@string/nome" />
+            android:layout_weight="1"
+            android:text="@string/nome"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/lista_lupulos_personalizada_alpha"

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="320dp"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
 
         <TextView
             android:id="@+id/layoutAgua"
@@ -17,13 +19,14 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="105dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_weight="1">
 
 
                         <TextView
@@ -40,10 +43,12 @@
                             android:ems="10"
                             android:inputType="numberDecimal" />
                 </LinearLayout>
+
                 <LinearLayout
-                    android:layout_width="105dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_weight="1">
 
                         <TextView
                             android:id="@+id/textViewAguaVolumeTotal"
@@ -60,10 +65,12 @@
                             android:inputType="numberDecimal" />
 
                 </LinearLayout>
+
                 <LinearLayout
-                    android:layout_width="105dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_weight="1">
 
                         <TextView
                             android:id="@+id/textViewAguaRelacao"
@@ -84,13 +91,14 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="105dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_weight="1">
 
 
                         <TextView
@@ -108,9 +116,10 @@
                             android:inputType="numberDecimal" />
                 </LinearLayout>
                 <LinearLayout
-                    android:layout_width="105dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_weight="1">
 
                         <TextView
                             android:id="@+id/textViewGraosTemperatura"
@@ -128,9 +137,10 @@
 
                 </LinearLayout>
                 <LinearLayout
-                    android:layout_width="105dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_weight="1">
 
                         <TextView
                             android:id="@+id/textViewGraosAbsorcao"
@@ -161,13 +171,14 @@
             android:textSize="18sp" />
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="105dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_weight="1">
 
 
                         <TextView
@@ -185,9 +196,10 @@
                             android:inputType="numberDecimal" />
                 </LinearLayout>
                 <LinearLayout
-                    android:layout_width="105dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_weight="1">
 
                         <TextView
                             android:id="@+id/textViewMosturaTemperaturaDesejada"
@@ -205,9 +217,10 @@
 
                 </LinearLayout>
                 <LinearLayout
-                    android:layout_width="105dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_weight="1">
 
                         <TextView
                             android:id="@+id/textViewMosturaTemperaturaIndica"
@@ -238,13 +251,14 @@
             android:textSize="18sp" />
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="105dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_weight="1">
 
 
                         <TextView
@@ -262,9 +276,10 @@
                             android:inputType="numberDecimal" />
                 </LinearLayout>
                 <LinearLayout
-                    android:layout_width="105dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_weight="1">
 
                         <TextView
                             android:id="@+id/textViewLavagemTemperaturaDesejada"
@@ -282,9 +297,10 @@
 
                 </LinearLayout>
                 <LinearLayout
-                    android:layout_width="105dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_weight="1">
 
                         <TextView
                             android:id="@+id/textViewLavagemTemperaturaIndica"
@@ -315,13 +331,14 @@
             android:textSize="18sp" />
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="105dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_weight="1">
 
 
                         <TextView
@@ -339,9 +356,10 @@
                             android:inputType="numberDecimal" />
                 </LinearLayout>
                 <LinearLayout
-                    android:layout_width="105dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_weight="1">
 
                         <TextView
                             android:id="@+id/textViewPerdasFervura"
@@ -359,9 +377,10 @@
 
                 </LinearLayout>
                 <LinearLayout
-                    android:layout_width="105dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_weight="1">
 
                         <TextView
                             android:id="@+id/textViewPerdasFermentador"
@@ -384,6 +403,7 @@
             android:id="@+id/dialogButtonBrassagemOK"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:layout_weight="1"
             android:text="@string/ok" />
 </LinearLayout>

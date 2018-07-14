@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="50dp"
+    android:paddingRight="40dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/textViewCor"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cor"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerCorConfig"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/textViewLupulo"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lupulo"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerLupuloConfig"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/textViewEstilo"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/estilo"
+                    android:textSize="20sp" />
+
+
+                <Spinner
+                    android:id="@+id/spinnerConfigEstilo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/dialogButtonConfigOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="@string/ok" />
+</LinearLayout>

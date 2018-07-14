@@ -58,7 +58,7 @@ public class AdapterGraosPersonalizado extends BaseAdapter {
                     view.findViewById(R.id.lista_graos_personalizada_percentagem);
 
             nome.setText(graos.get(position).getNome());
-            potencialExtracao.setText(graos.get(position).getPotencialExtracao()+" P. Ext.");
+            potencialExtracao.setText(graos.get(position).getPotencialExtracao()+"");
             cor.setText(graos.get(position).getCor()+ " EBC");
             Double aux = graos.get(position).getKilos();
             DecimalFormat df = new DecimalFormat("#.0");
