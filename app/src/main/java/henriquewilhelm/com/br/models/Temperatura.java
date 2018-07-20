@@ -8,19 +8,45 @@ public class Temperaturas implements Serializable {
 	 */
 	private static final long serialVersionUID = 2805016469661080115L;
 
-	private Integer id;
-	private String nomeEnzimas;
+	private Integer id = 0;
+	private String nomeEnzimas = "";
 	private Double temperaturaMin = 0d;
 	private Double temperaturaMax = 0d;
 	private Double temperatura = 0d;
 	private Double phMin = 0d;
 	private Double phMax = 0d;
 	private Integer tempo = 0;
-	private String unidade;
-	private String sobre;
+	private String unidade = "";
+	private String sobre = "";
 
 	public Temperaturas(){
 
+	}
+
+	public Temperaturas(Temperaturas temperaturas){
+		this.id = temperaturas.getId();
+		this.nomeEnzimas = temperaturas.getNomeEnzimas();
+		this.temperaturaMin = temperaturas.getTemperaturaMin();
+		this.temperaturaMax = temperaturas.getTemperaturaMax();
+		this.temperatura = temperaturas.getTemperatura();
+		this.phMin = temperaturas.getPhMin();
+		this.phMax = temperaturas.getPhMax();
+		this.tempo = temperaturas.getTempo();
+		this.unidade = temperaturas.getUnidade();
+		this.sobre = temperaturas.getSobre();
+	}
+
+	public Temperaturas(Integer id, String nomeEnzimas, Double temperaturaMin, Double temperaturaMax, Double temperatura, Double phMin, Double phMax, Integer tempo, String unidade, String sobre) {
+		this.id = id;
+		this.nomeEnzimas = nomeEnzimas;
+		this.temperaturaMin = temperaturaMin;
+		this.temperaturaMax = temperaturaMax;
+		this.temperatura = temperatura;
+		this.phMin = phMin;
+		this.phMax = phMax;
+		this.tempo = tempo;
+		this.unidade = unidade;
+		this.sobre = sobre;
 	}
 
 	public Temperaturas(String nome){
